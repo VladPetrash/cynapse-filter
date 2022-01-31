@@ -1,3 +1,238 @@
+<!DOCTYPE html>
 <html>
-
+<body>
+<script>
+window.onload = function clickFirstTab () {
+	if (window.location.href.indexOf("appfigures") > -1) {
+  document.getElementById("all-widgets-title").textContent = "Appfigures Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Appfigures dashboards customized to visualize your subscription business with these pre-designed KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Download Stats";
+  document.getElementById("1-section-description").textContent = "Track app and in-app downloads, updates, returns, educational downloads, and more.";
+  document.getElementById("2-section-title").textContent = "Ranks";
+  document.getElementById("2-section-description").textContent = "Rank tracking for every mobile app across all countries, categories, and App Stores.";
+  document.getElementById("3-section-title").textContent = "Ratings";
+  document.getElementById("3-section-description").textContent = "Ratings tracking for every mobile app across all countries, categories, and App Stores.";
+  document.getElementById("4-section-title").textContent = "Subscription Stats";
+  document.getElementById("5-section-title").textContent = "Revenue Stats";
+  document.getElementById("5-section-description").textContent = "Track your revenue sources including sales, in-app-purchases, subscriptions, and more.";
+  document.getElementById("6-section-title").textContent = "Ad Revenue Stats";
+  document.getElementById("6-section-description").textContent = "Visualize ad revenue trends and track earned revenue in real time.";
+  document.querySelectorAll(".appfigures").forEach ((e) => {e.click()});  
+	document.getElementById("2-icon").style.display = "block";
+	document.getElementById("3-icon").style.display = "block";
+	document.getElementById("4-icon").style.display = "block";
+	document.getElementById("5-icon").style.display = "block";
+	document.getElementById("6-icon").style.display = "block";
+  }
+  if (window.location.href.indexOf("baremetrics") > -1) {
+  document.getElementById("all-widgets-title").textContent = "Baremetrics Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Baremetrics dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Basic Stats";
+  document.getElementById("1-section-description").textContent = "Track basic subscription statistics for active customers.";
+  document.getElementById("2-section-title").textContent = "Advanced Stats";
+  document.getElementById("2-section-description").textContent = "Track advanced subscription statistics such as ARPU, ARR, Churn rate etc. for active customers.";
+	document.querySelectorAll(".baremetrics").forEach ((e) => {e.click()});
+  document.getElementById("2-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("chartmogul") > -1) {
+  document.getElementById("all-widgets-title").textContent = "All ChartMogul Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build ChartMogul dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Basic Stats";
+  document.getElementById("1-section-description").textContent = "Track your most important subscription numbers - ARR, MRR & total paying Customers for free.";
+  document.getElementById("2-section-title").textContent = "Advanced Stats";
+  document.getElementById("2-section-description").textContent = "Get detailed insights on the momentum of your SaaS business by diving into numbers and trends of important growth metrics like ARPA & customer churn rates.";
+  document.getElementById("3-section-title").textContent = "Plan Stats";
+  document.getElementById("3-section-description").textContent = "Generate deeper insights by tracking customer churn rate, MRR, ARR & more for each plan offered by your business.";
+	document.querySelectorAll(".chartmogul").forEach ((e) => {e.click()});
+  document.getElementById("2-icon").style.display = "block";
+  document.getElementById("3-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("facebook") > -1) {
+  document.getElementById("all-widgets-title").textContent = "All Facebook Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Facebook dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Page User Demographics";
+  document.getElementById("2-section-title").textContent = "Page Visits";
+  document.getElementById("3-section-title").textContent = "Page Engagement";
+	document.querySelectorAll(".facebook").forEach ((e) => {e.click()});
+	}
+  if (window.location.href.indexOf("envato") > -1) {
+  document.getElementById("all-widgets-title").textContent = "All Envato Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Envato dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Basic Stats";
+  document.getElementById("2-section-title").textContent = "Advanced Stats";
+	document.querySelectorAll(".envato").forEach ((e) => {e.click()});
+  document.getElementById("2-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("github") > -1) {
+  document.getElementById("all-widgets-title").textContent = "All Github Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Github dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Basic User Stats";
+  document.getElementById("2-section-title").textContent = "User Repo Stats";
+  document.getElementById("3-section-title").textContent = "Organizational Repo Stats";
+	document.querySelectorAll(".github").forEach ((e) => {e.click()});
+  document.getElementById("3-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("foursquare") > -1) {
+  document.getElementById("all-widgets-title").textContent = "All Foursquare Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Foursquare dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Personal Stats";
+  document.getElementById("2-section-title").textContent = "Venue Visitor Demographics";
+  document.getElementById("3-section-title").textContent = "Venue Engagement Stats";
+	document.querySelectorAll(".foursquare").forEach ((e) => {e.click()});
+	}
+  if (window.location.href.indexOf("flurry") > -1) {
+  document.getElementById("all-widgets-title").textContent = "All Flurry Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Flurry dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Hourly App Stats";
+  document.getElementById("1-section-description").textContent = "Visualize device and app version related KPIs tracked in Flurry.";
+  document.getElementById("2-section-title").textContent = "App Usage Stats";
+  document.getElementById("2-section-description").textContent = "Identify trends and track KPIs relating to user behavior within your mobile app.";
+  document.getElementById("3-section-title").textContent = "App Event Stats";
+  document.getElementById("3-section-description").textContent = "Visualize and track your custom event metrics KPIs.";
+	document.querySelectorAll(".flurry").forEach ((e) => {e.click()});
+  document.getElementById("2-icon").style.display = "block";
+  document.getElementById("3-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("gmail") > -1) {
+  document.getElementById("all-widgets-title").textContent = "All Gmail Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Gmail dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Priority Mailbox Stats";
+  document.getElementById("2-section-title").textContent = "Mailbox Stats";
+  document.getElementById("3-section-title").textContent = "Label Stats";
+  document.getElementById("4-section-title").textContent = "Category Stats";
+	document.querySelectorAll(".gmail").forEach ((e) => {e.click()});
+	}
+  if (window.location.href.indexOf("hitsteps") > -1) {
+  document.getElementById("all-widgets-title").textContent = "Hitsteps Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Hitsteps dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Realtime Web Activity";
+  document.getElementById("1-section-description").textContent = "Track your most important real time website vistor behaviour KPIs.";
+  document.getElementById("2-section-title").textContent = "Basic Web Stats";
+  document.getElementById("2-section-description").textContent = "Track your most important basic website vistor behaviour KPIs.";
+  document.getElementById("3-section-title").textContent = "Referral Stats";
+  document.getElementById("3-section-description").textContent = "Track out your direct and referral traffic trends for your chosen time span.";
+	document.querySelectorAll(".hitsteps").forEach ((e) => {e.click()});
+	}
+  if (window.location.href.indexOf("jamf-pro") > -1) {
+  document.getElementById("all-widgets-title").textContent = "Jamf Pro Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Jamf Pro dashboards customized to visualize your subscription business with these pre-designed KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Basic Stats";
+  document.getElementById("2-section-title").textContent = "Advanced Stats";
+	document.querySelectorAll(".jamf-pro").forEach ((e) => {e.click()});
+  document.getElementById("2-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("intercom") > -1) {
+  document.getElementById("all-widgets-title").textContent = "Intercom Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Intercom dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Admin Stats";
+  document.getElementById("2-section-title").textContent = "User Stats";
+  document.getElementById("3-section-title").textContent = "Company Stats";
+  document.getElementById("4-section-title").textContent = "Conversation Stats";
+	document.querySelectorAll(".intercom").forEach ((e) => {e.click()});
+  document.getElementById("2-icon").style.display = "block";
+  document.getElementById("3-icon").style.display = "block";
+  document.getElementById("4-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("mailchimp") > -1) {
+  document.getElementById("all-widgets-title").textContent = "All MailChimp Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build MailChimp dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Basic List Stats";
+  document.getElementById("2-section-title").textContent = "Basic Campaign Stats";
+  document.getElementById("3-section-title").textContent = "Advanced List Stats";
+  document.getElementById("4-section-title").textContent = "Advanced Campaign Stats";
+	document.querySelectorAll(".mailchimp").forEach ((e) => {e.click()});
+  document.getElementById("3-icon").style.display = "block";
+  document.getElementById("4-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("salesforce") > -1) {
+  document.getElementById("all-widgets-title").textContent = "Salesforce Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Salesforce dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Basic Stats";
+  document.getElementById("2-section-title").textContent = "Opportunity Stats";
+  document.getElementById("3-section-title").textContent = "Lead Stats";
+  document.getElementById("4-section-title").textContent = "Campaign Stats";
+  document.getElementById("5-section-title").textContent = "People Stats"
+	document.getElementById("6-section-title").textContent = "Custom SOQL";
+  document.querySelectorAll(".salesforce").forEach ((e) => {e.click()});
+  document.getElementById("2-icon").style.display = "block";
+  document.getElementById("3-icon").style.display = "block";
+  document.getElementById("4-icon").style.display = "block";
+  document.getElementById("5-icon").style.display = "block";
+  document.getElementById("6-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("pivotal-tracker") > -1) {
+  document.getElementById("all-widgets-title").textContent = "All Pivotal Tracker Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Pivotal Tracker dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Project Stats";
+  document.getElementById("2-section-title").textContent = "Basic Iteration Stats";
+  document.getElementById("3-section-title").textContent = "Detailed Iteration Stats";
+	document.querySelectorAll(".pivotal-tracker").forEach ((e) => {e.click()});
+  document.getElementById("3-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("teamwork") > -1) {
+  document.getElementById("all-widgets-title").textContent = "Teamwork Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build customized Teamwork dashboards to visualize your project statistics with these pre-designed KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Overall Stats";
+  document.getElementById("2-section-title").textContent = "Task Stats";
+  document.getElementById("3-section-title").textContent = "Project Stats";
+	document.querySelectorAll(".teamwork").forEach ((e) => {e.click()});
+  document.getElementById("3-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("todoist") > -1) {
+  document.getElementById("all-widgets-title").textContent = "Todoist Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Todoist dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Project Stats";
+  document.getElementById("2-section-title").textContent = "Productivity Stats";
+	document.querySelectorAll(".todoist").forEach ((e) => {e.click()});
+  document.getElementById("2-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("trello") > -1) {
+  document.getElementById("all-widgets-title").textContent = "All Trello Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Trello dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Personal Stats";
+  document.getElementById("2-section-title").textContent = "Organization Stats";
+  document.getElementById("3-section-title").textContent = "List Stats";
+  document.getElementById("4-section-title").textContent = "Board Stats";
+  document.querySelectorAll(".trello").forEach ((e) => {e.click()});
+  document.getElementById("2-icon").style.display = "block";
+  document.getElementById("3-icon").style.display = "block";
+  document.getElementById("4-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("youtube") > -1) {
+  document.getElementById("all-widgets-title").textContent = "All Youtube Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Youtube dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Basic Channel Stats";
+  document.getElementById("2-section-title").textContent = "Channel View Stats";
+  document.getElementById("3-section-title").textContent = "Channel Engagement Stats";
+  document.getElementById("4-section-title").textContent = "Channel Annotation Stats";
+  document.querySelectorAll(".youtube").forEach ((e) => {e.click()});
+  document.getElementById("2-icon").style.display = "block";
+  document.getElementById("3-icon").style.display = "block";
+  document.getElementById("4-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("woocommerce") > -1) {
+  document.getElementById("all-widgets-title").textContent = "All WooCommerce Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build WooCommerce dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Product Stats";
+  document.getElementById("2-section-title").textContent = "Sales Stats";
+  document.querySelectorAll(".woocommerce").forEach ((e) => {e.click()});
+  document.getElementById("3-icon").style.display = "block";
+	}
+  if (window.location.href.indexOf("wordpress") > -1) {
+  document.getElementById("all-widgets-title").textContent = "All Wordpress Dashboard KPIs in Numerics";
+	document.getElementById("description").textContent = "Build Wordpress dashboards customized to visualize your subscription business with these pre-desinged KPI widget templates in Numerics.";
+  document.getElementById("1-section-title").textContent = "Basic Stats";
+  document.getElementById("2-section-title").textContent = "Visitor Stats";
+  document.getElementById("3-section-title").textContent = "View Stats";
+  document.getElementById("4-section-title").textContent = "Interaction Stats";
+  document.getElementById("5-section-title").textContent = "Network Stats"
+  document.querySelectorAll(".wordpress").forEach ((e) => {e.click()});
+  document.getElementById("2-icon").style.display = "block";
+  document.getElementById("3-icon").style.display = "block";
+  document.getElementById("4-icon").style.display = "block";
+  document.getElementById("5-icon").style.display = "block";
+	}
+};
+</script>
+</body>
 </html>
